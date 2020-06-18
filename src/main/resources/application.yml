@@ -1,0 +1,11 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/userprofiledatabase
+    username: postgres
+    password: password
+    pool-size: 30
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
